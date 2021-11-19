@@ -1,0 +1,123 @@
+* {
+    background:#1A1A1D;
+    box-sizing: border-box;
+}
+h1{
+    color:#E8E1D9;
+}
+h2{
+    color: #E8E1D9;
+    text-align: center;
+    padding: 10px 10px;
+    /* border: 2px solid #04AA6D; */
+}
+p{
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: transparent;
+
+}
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.forest_fire{
+    background: url(/Images/forest-fire1.jpg) center center cover no-repeat fixed;
+    width: 100%;
+    height: 100%;
+    /* width: 1024px;
+    height: 800px; */
+    object-fit: cover;
+    opacity: 1;
+}
+.forest_fire:hover {
+    opacity: 0.5;
+  }
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    border: 2px solid #1A1A1D;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin-left: 20px;
+  }
+  /* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid #0D698B;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+    text-decoration:none;
+  }
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid #0D698B;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+  }
+  .main_body {
+    padding: 10px 20px;
+    background:#1A1A1D;
+  }
+  .quote{
+      background-color: #FF6501;
+  }
+/* columns side by side */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10 10px;
+  }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #0D698B;
+    /* border: 2px solid #0D698B; */
+}
+.gallery{
+    /* padding: 10px 20px; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.footer {
+    /* padding: 100px; */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1A1A1D;
+    color: white;
+    text-align: center;
+    font-size:  30px;
+  }
